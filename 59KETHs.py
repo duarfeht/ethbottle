@@ -1,5 +1,4 @@
-import hashlib
-import web3
+import sha3
 import os
 from ethereum import utils
 import time
