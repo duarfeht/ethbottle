@@ -6,7 +6,7 @@ import time
 start = time.time()
 
 a = 1
-while (a <=5):
+while (a <=50):
     elapsed_time = time.time() - start
     
     privat_key = utils.sha3(os.urandom(256))
@@ -25,7 +25,7 @@ while (a <=5):
         dosya2.write(z + " " + account_address + "\n")
         dosya2.close()
 
-        time.sleep(5)
+        time.sleep(10)
     else:
         print('private key:'+ z +''+'Address:' +account_address+ ' '+str(a))
 
