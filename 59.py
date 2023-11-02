@@ -14,7 +14,6 @@ while (a <=50):
     account_address= (utils.checksum_encode(raw_address)).lower()
     z= utils.encode_hex(privat_key)
     #for test
-    account_address = "0xB88444C323EC00b31B89BbB9d291B47DEDFBD6Ea"
     wanted = "0xB88444C323EC00b31B89BbB9d291B47DEDFBD6Ea"
     if wanted==account_address:
         print("---EURIKA-----EURIKA-----EURIKA-----EURIKA---")
