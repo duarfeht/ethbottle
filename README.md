@@ -9,4 +9,4 @@ ethereum
 
 
 
-python 59KETHs.py python3 59KETHs.py
+python 59.py python3 59.py
