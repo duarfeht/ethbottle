@@ -10,7 +10,7 @@ while (a <=5):
     elapsed_time = time.time() - start
     
     privat_key = utils.sha3(os.urandom(256))
-    raw_address = utils.privatoaddr(privat_key)
+    raw_address = utils.privtoaddr(privat_key)
     account_address= (utils.checksum_encode(raw_address)).lower()
     z= utils.encode_hex(privat_key)
     #for test
